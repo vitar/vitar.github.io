@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viktor Jevdokimov</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.3em;
+    }
+    p {
+      font-size: 1.1rem;
+      margin: 0.2em 0 1.5em;
+      color: #444;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.75em 1.5em;
+      margin: 1em 0;
+      background: #2a7ae2;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+    .btn:hover {
+      background: #1d5db5;
+    }
+    .links {
+      margin-top: 1.5em;
+    }
+    .links a {
+      margin: 0 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .links img {
+      width: 28px;
+      height: 28px;
+    }
+    footer {
+      margin-top: 3em;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Viktor Jevdokimov</h1>
+    <p>Software engineer, systems thinker, and author of CLRF framework, bass player.</p>
+
+    <a href="clrf/" class="btn">Read the CLRF Book</a>
+
+    <div class="links">
+      <a href="https://www.linkedin.com/in/viktor-jevdokimov" target="_blank" rel="noopener">
+        <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn">
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    © <span id="year">2025</span> Viktor Jevdokimov, Vilnius, Lithuania
+  </footer>
+
+  <script>
+    // Auto-update footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
