@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://vitar.github.io/sitemap.xml
+sitemap: https://a525759.sitemaphosting7.com/4630182/sitemap_4630182.xml
