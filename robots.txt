@@ -1,3 +1,2 @@
 User-agent: *
 Allow: /
-sitemap: https://a525759.sitemaphosting7.com/4630182/sitemap_4630182.xml
